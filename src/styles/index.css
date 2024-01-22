@@ -1,12 +1,39 @@
+.stick{
+    background-color: black;
+    height: 100px;
+    width: 15px;
+    margin-bottom: -7px;
+    margin: 0 auto;
+}
+.lights{
+    height: 350px;
+    width: 115px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 35px 5px;
+}
+.light{
+    height: 90px;
+    border-radius: 50%;
+    margin: 5px 0;
+    z-index: 99;
+}
+.glow{
+    box-shadow: 10px 10px 45px 25px rgba(217, 213, 48, 0.8);
+}
+.red{
+    background-color: red;
+    margin: 0;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+#whole-wheat{
+    background-image: url(https://images.unsplash.com/photo-1555424221-250de2a343ad?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl0dHNidXJnaHxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    height: 100vh;
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
